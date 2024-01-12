@@ -52,7 +52,7 @@ if FORCE_BINARY:
     print("Binary forced")
 
 setup_args = dict(
-    name="plugp100",
+    name="tapoq",
     version=get_version("plugp100/__init__.py"),
     install_requires=REQUIREMENTS,
     description="Controller for TP-Link Tapo P100 and other devices",
@@ -60,11 +60,11 @@ setup_args = dict(
     long_description=README,
     license="GPL3",
     packages=find_packages(exclude=("tests",)),
-    author="@petretiandrea",
-    author_email="petretiandrea@gmail.com",
-    keywords=["Tapo", "P100"],
-    url="https://github.com/petretiandrea/plugp100",
-    download_url="https://github.com/petretiandrea/plugp100",
+    author="@miumer",
+    author_email="siimpoldre@gmail.com",
+    keywords=["Tapo"],
+    url="https://github.com/miumer/tapo",
+    download_url="https://github.com/miumer/tapo",
     classifiers=[
         # 'Development Status :: 4 - Beta',
         "Development Status :: 5 - Production/Stable"
